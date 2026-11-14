@@ -1,7 +1,18 @@
 {
     "manifest_version": 2,
-    "version": "1.0",
-    "name": "Shrek Almighty Theme",
+    "version": "1.1",
+    "name": "shrek-almighty-theme",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "@addon-shronky",
+            "data_collection_permissions": {
+            "required": [
+                "none"
+            ]
+            },
+            "strict_min_version": "140.0"
+        }
+    },
     "theme": {
         "images": {
             "additional_backgrounds": ["images/daddy-shrek.png"]
@@ -11,23 +22,16 @@
             "additional_backgrounds_tiling": ["repeat"]
         },
         "colors": {
-            "toolbar": "rgba(255, 255, 255, 0.0)",
-            "toolbar_field": "rgba(99, 35, 205, 0.0)",
-            "toolbar_field_text": "rgba(240, 192, 228, 0.0)",
-            "tab_line": "rgba(205, 35, 185, 0.0)",
-            "popup": "rgba(108, 0, 114, 0.0)",
-            "popup_text": "rgba(240, 192, 228, 0.0)",
-            "tab_loading": "rgba(205, 35, 185, 0.0)",
-            "tab_background_text": "rgba(150, 96, 239, 0.0)",
-            "ntp_background": "rgba(25, 0, 66, 0.0)",
-            "ntp_text": "rgba(255, 250, 250, 0.0)",
-            "frame": "rgba(8, 11, 33, 0.0)",
-            "icons": "rgba(210, 128, 255, 0.0)",
-            "bookmark_text": "rgba(210, 155, 255, 0.0)",
-            "sidebar": "rgba(108, 0, 114, 0.0)",
-            "sidebar_text": "rgba(240, 192, 228, 0.0)",
-            "tab_text": "rgba(255, 255, 255, 0.0)"
+        "toolbar": "rgb(233, 237, 240)",
+        "toolbar_text": "rgb(214, 81, 109)",
+        "frame": "rgb(73, 153, 201)",
+        "tab_background_text": "rgb(248, 248, 248)",
+        "toolbar_field": "rgb(252, 252, 252)",
+        "toolbar_field_text": "rgb(214, 81, 109)",
+        "tab_line": "rgb(214, 81, 109)",
+        "popup": "rgb(233, 237, 240)",
+        "popup_text": "rgb(177, 63, 87)",
+        "tab_loading": "rgb(214, 81, 109)"
         }
     }
 }
-
