@@ -7,6 +7,10 @@
 
 ![demo](./demo.gif)
 
+> [!TIP]
+> Now with just enough work so that Mozilla will sign it! 
+> https://github.com/maauer/shrek-almighty-theme/releases/tag/v1.1
+
 ## Setup Project
 
 Install project dependencies:
